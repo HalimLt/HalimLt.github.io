@@ -4,6 +4,9 @@
     padding:0;
     margin: 0;
 }
+.header_scroll{
+    box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3);
+}
 
 nav{
     top: 0;
@@ -15,11 +18,26 @@ nav{
     margin-bottom: 1rem;
     width:100%;
 }
-nav button{
+#me_part{
+    padding-top:60px;
+    margin-top:-60px;
+}
+#skills_part{
+    padding-top:60px;
+    margin-top:-60px;
+}
+#studies_part{
+    padding-top:60px;
+    margin-top:-60px;
+}
+#projects_part{
+    padding-top:60px;
+    margin-top:-60px;
+}
+
+.button{
     color:#d1d3d5;
-    background-color: #1c1c1c;
-    border-color: #5161f5;
-    border: 150px;
+    text-decoration:none;
     margin: 0 1rem 0 1rem;
 }
 body{
@@ -37,7 +55,7 @@ span{
     color:rgb(160, 177, 192);
 }
 section{
-    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .study p {
     color:rgb(160, 177, 192);
@@ -73,7 +91,7 @@ button{
     text-align: center;
 }
 .about_me{
-    margin: 3rem 5ch 0;
+    margin: 3rem 5ch 5rem;
 }
 .wrapper{
     margin-top: 2rem;

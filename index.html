@@ -4,15 +4,15 @@
         <meta charset="utf-8" />
 		<title>Halim Luquet</title>
 		<link rel="stylesheet" href="./styles/index.css"/>
-		<script src="./js/index.js"></script>
+		<script src="./js/app.js"></script>
     </head>
 	<body>
 		<header>
 			<nav>
-				<button>A propos de moi</button>
-				<button>Mes compétences</button>
-				<button>Mes Etudes</button>
-				<button>Mes Projets</button>
+				<a class="button" href="#me_part">A propos de moi</a>
+				<a class="button" href="#skills_part">Mes compétences</a>
+				<a class="button" href="#studies_part">Mes Etudes</a>
+				<a class="button" href="#projects_part">Mes Projets</a>
 			</nav>
 		</header>
 		
@@ -24,7 +24,7 @@
 				<h2>Etudiant en Informatique</h2>
 			</section>
 
-			<section class="about_me">
+			<section class="about_me" id="me_part">
 				<h1>A propos de moi</h1>
 				<div class="wrapper">
 					<img id="ImgMe" src="./img/moi.png" alt="Image de moi">
@@ -42,11 +42,10 @@
 						Je vais terminer mon BUT par une bidiplomation à l'Uqac avec le Baccalauréat en développement de jeux vidéo.
 					</p>
 				</div>
-				
 				<button>Télécharger mon CV</button>
 				<button>Contactez moi</button>
 			</section>
-			<section class="skills">
+			<section class="skills" id="skills_part">
 				<h1>Mes compétences</h1>
 				<div class="skillsContainer">
 					<div class="categorie">
@@ -151,7 +150,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="studies">
+			<section class="studies" id="studies_part">
 				<h1>Mes Etudes</h1>
 				<div class="studiesContenair">
 					<div class="study">
@@ -166,7 +165,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="projects">
+			<section class="projects" id="projects_part">
 				<h1>Mes Projets</h1>
 				<div class="studiesContenair">
 					<div class="study"> 
@@ -210,6 +209,19 @@
 						<span class="services_button"> 
 							" Voir plus "
 						</span>
+					</div>
+				</div>
+			</section>
+			<section class="contact" id="contact_part">
+				<h1>Contactez</h1>
+				<div>
+					<div class="support">
+						<h2>Email</h2>
+						<a href="mailto:hluquet01@gmail.com">hluquet01@gmail.com</a>
+					</div>
+					<div class="support">
+						<h2>LinkedIn</h2>
+						<a href="https://www.linkedin.com/in/halim-luquet/">HalimLt</a>
 					</div>
 				</div>
 			</section>
